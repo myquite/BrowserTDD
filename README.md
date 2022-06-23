@@ -1,8 +1,8 @@
-# TestJS
+# BrowserTDD
 
-The test.js file has a basic testing function and assertion function that allows you to create tests using plain JavaScript in the browser.
+This intial setup has a test.js file with a basic testing function and assertion function that allows you to create tests using plain JavaScript in the browser.
 
-![screenshot](https://github.com/myquite/testjs/blob/master/testjs-screenshot.png)
+![screenshot](https://github.com/myquite/testjs/blob/master/BrowserTDD-screenshot.png)
 
 ## Constraints
 
