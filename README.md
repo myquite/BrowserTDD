@@ -2,6 +2,8 @@
 
 The test.js file has a basic testing function and assertion function that allows you to create tests using plain JavaScript in the browser.
 
+[screenshot](https://github.com/myquite/testjs/blob/master/testjs-screenshot.png)
+
 ## Constraints
 
 <!-- Constraints can be a good way to practice specific techniques or approaches -->
