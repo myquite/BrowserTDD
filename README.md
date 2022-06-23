@@ -22,6 +22,16 @@ This intial setup has a test.js file with a basic testing function and assertion
 
 2. In your main JavaScript file import test and whatever functions your testing.
 
+3. Write your tests:
+
+```JS
+test('title', functionName, () => {
+  expect(functionName(arg).toBe(value))
+})
+```
+
+Example:
+
 ```JS
 import { test, expect } from "./modules/test.js";
 import { add, subtract, greet } from "./modules/helpers.js";
