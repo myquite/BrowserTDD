@@ -16,14 +16,28 @@ This intial setup has a test.js file with a basic testing function and assertion
 
 - As a developer I want to test JavaScript functions without installing depencies so that I can do Test Driven Development in the browser.
 
-## Lessons Learned
+## How it Works
 
-<!-- In your AAR try to come up with three examples for each question below. This is not a hard rule, just a guideline -->
+1. Add the `test.js` file to your project.
 
-### What went well with the project?
+2. In your main JavaScript file import test and whatever functions your testing.
 
-- Example
+```JS
+import { test, expect } from "./modules/test.js";
+import { add, subtract, greet } from "./modules/helpers.js";
 
-### What things challenged you with the project?
+test(`adds two values`, add, () => {
+  expect(add(1, 2)).toBe(3);
+});
 
-- Example
+test(`subtracts two values`, subtract, () => {
+  expect(subtract(10, 5)).toBe(5);
+});
+
+test(`greets a name`, greet, () => {
+  expect(greet("John")).toBe("Hello, John");
+});
+```
+
+3. Launch your server (I'm using LiveReload)
+4. Open your console to see your tests.
